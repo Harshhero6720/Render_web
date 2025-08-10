@@ -918,4 +918,5 @@ def get_sender_name(token):
         return "Unknown"
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=21902)
+
+    app.run(host='0.0.0.0', port=5000)
